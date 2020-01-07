@@ -51,6 +51,7 @@
         <v-row
           align="center"
           justify="center"
+          padding="0px"
         >
 
         <Card v-for="i in text" :key="i.url" :author="i.author" :title="i.title" :descr="i.description" :url_kek="i.urlToImage" :url="i.url">
